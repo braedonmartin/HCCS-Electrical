@@ -4,6 +4,7 @@ import Header from './../Common/Header';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
 
+// nuts is a god
 var bnrimg = require('./../../images/banner/4.jpg');
 
 class Error extends React.Component {
