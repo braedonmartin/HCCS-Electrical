@@ -30,47 +30,27 @@ class Navigation extends React.Component {
                 <div className={(this.props.bgcolor !== '') ? `header-nav navbar-collapse collapse ${this.props.bgcolor}` : 'header-nav navbar-collapse collapse'}>
                     <ul className="nav navbar-nav">
                         <li className="active">
-                            <NavLink to={""}>Home</NavLink>
-                            <ul className="sub-menu">
-                                <li>
-                                    <NavLink to={"./"}>Home-1</NavLink>
-                                </li>
-                                <li>
-                                <NavLink to={"/homepage2"}>Home-2</NavLink>
-                                </li>
-                                <li>
-                                <NavLink to={"/homepage3"}>Home-3 boxed style</NavLink>
-                                </li>
-                                <li>
-                                <NavLink to={"/homepage4"}>Home-4</NavLink>
-                                </li>
-                            </ul>
+                            <NavLink to={"./"}>Home</NavLink>
                         </li>
                         <li>
-                        <NavLink to={"/about"}>About us</NavLink>
+                            <NavLink to={"/contactus"}>Contact us</NavLink>
                         </li>
                         <li>
-                        <NavLink to={"/services"}>Services</NavLink>
+                            <NavLink to={"/faq"}>FAQ</NavLink>
                         </li>
                         <li>
                         <NavLink to={""}>Pages</NavLink>
                             <ul className="sub-menu">
                                 <li>
-                                <NavLink to={""}>Blog</NavLink>
-                                    <ul className="sub-menu has-child">
-                                        <li><NavLink to={"/blog-grid"}>Blog Grid</NavLink></li>
-                                        <li><NavLink to={"/blog-listing"}>Blog Listing</NavLink></li>
-                                        <li><NavLink to={"/blog-masonary"}>Blog Masonry</NavLink></li>
-                                    </ul>
+                                    <NavLink to={"/about"}>About us</NavLink>
                                 </li>
                                 <li>
-                                <NavLink to={"/faq"}>FAQ</NavLink>
+                                    <NavLink to={"/services"}>Services</NavLink>
                                 </li>
                                 <li>
-                                <NavLink to={"/error"}>Error 404</NavLink>
+                                    <NavLink to={"/error"}>Error 404</NavLink>
                                 </li>
                                 <li>
-                                <NavLink to={"/contactus"}>Contact us</NavLink>
                                 </li>
                             </ul>
                         </li>

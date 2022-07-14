@@ -2,8 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Header from './../Common/Header';
 import Footer from './../Common/Footer';
-import LatestBlogs from '../Elements/LatestBlogs';
-import BlogComments from '../Elements/BlogComments';
 import Banner from './../Elements/Banner';
 
 var bnrimg = require('./../../images/banner/2.jpg');
@@ -111,8 +109,6 @@ class PostImage extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <LatestBlogs bgcolor="bg-gray"/>
-                            <BlogComments/>
                         </div>
                     </div>
                     {/* SECTION CONTENT END */}

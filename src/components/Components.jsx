@@ -6,9 +6,6 @@ import Home3 from './Pages/Home3';
 import Home4 from './Pages/Home4';
 import About from './Pages/About';
 import Services from './Pages/Services';
-import BlogGrid from './Pages/BlogGrid';
-import BlogListing from './Pages/BlogListing';
-import BlogMasonary from './Pages/BlogMasonary';
 import Faq from './Pages/Faq';
 import Error from './Pages/Error';
 import ContactUs from './Pages/ContactUs';
@@ -48,9 +45,6 @@ class Components extends React.Component {
                             <Route path='/about' exact component={About} />
                             <Route path='/services' exact component={Services} />
 
-                            <Route path='/blog-grid' exact component={BlogGrid} />
-                            <Route path='/blog-listing' exact component={BlogListing} />
-                            <Route path='/blog-masonary' exact component={BlogMasonary} />
                             <Route path='/faq' exact component={Faq} />
                             <Route path='/error' exact component={Error} />
                             <Route path='/contactus' exact component={ContactUs} />
