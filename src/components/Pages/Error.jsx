@@ -13,7 +13,18 @@ class Error extends React.Component {
 
                 <Header />
                 <div className="page-content">
-                <Banner title="Page Not Found" pagename="Error Page" bgimage={bnrimg.default}/>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 ">
+                            <div class="col-sm-12 text-center">
+                                <div class="four_zero_fourbg">
+                            </div>
+                        <div class="contant_box_404">
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
                    
                     {/* SECTION CONTENTG START */}
                     <div className="section-full p-tb150">
