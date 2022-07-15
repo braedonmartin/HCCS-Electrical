@@ -68,7 +68,7 @@ class OurServices extends React.Component {
                             <div className="container">
                                 <div className="row">
                                     {services.map((item, index) => (
-                                        <div className="col-md-3 col-sm-6" key={index}>
+                                        <div className="col-md-4 col-sm-6" key={index}>
                                             <div className="mt-icon-box-wraper m-b30">
                                                 <div className="relative icon-count-2 bg-gray p-a30 p-tb50">
                                                     <span className="icon-count-number">{item.count}</span>
