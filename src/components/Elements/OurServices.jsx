@@ -4,13 +4,13 @@ import { NavLink } from 'react-router-dom';
 const services = [
     {
         count: 1,
-        title: `Building Construction`,
+        title: `Retrofitting Potlights`,
         icon: require('./../../images/icon/crane-1.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
     {
         count: 2,
-        title: 'Building Renovation',
+        title: 'Electric Car Charging Stations',
         icon: require('./../../images/icon/renovation.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
@@ -20,12 +20,6 @@ const services = [
         icon: require('./../../images/icon/toolbox.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
-    {
-        count: 4,
-        title: 'Architecture Design',
-        icon: require('./../../images/icon/compass.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
-    }
 ]
 
 var img1 = require('./../../images/background/bg-6.png');

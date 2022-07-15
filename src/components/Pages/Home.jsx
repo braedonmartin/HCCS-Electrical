@@ -21,12 +21,9 @@ class Home extends React.Component {
                     <Slider />
                     <Specialization />
                     <About />
-                    <OurValue />
-                    <OurMission />
                     <OurServices />
                     <Callus />
                     <OurProject />
-                    <Blogs />
                     <Testimonials />
                 </div>
                 <Footer />
