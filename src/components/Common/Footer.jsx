@@ -33,11 +33,8 @@ class Footer extends React.Component {
                                         </div>
                                         <p className="max-w400">Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks.</p>
                                         <ul className="social-icons  mt-social-links">
-                                            <li><NavLink to={"#"} className="fa fa-google" /></li>
-                                            <li><NavLink to={"#"} className="fa fa-rss" /></li>
+                                            <li><NavLink to={"#"} className="fa fa-instagram" /></li>
                                             <li><NavLink to={"#"} className="fa fa-facebook" /></li>
-                                            <li><NavLink to={"#"} className="fa fa-twitter" /></li>
-                                            <li><NavLink to={"#"} className="fa fa-linkedin" /></li>
                                         </ul>
                                     </div>
                                 </div>
