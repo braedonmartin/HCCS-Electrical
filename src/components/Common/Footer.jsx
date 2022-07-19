@@ -3,11 +3,13 @@ import { NavLink } from 'react-router-dom';
 import Switcher from '../Elements/Switcher';
 
 var bgimage = require('./../../images/background/bg-site.png');
+var esa = require('./../../images/footer-logo.png');
 
 class Footer extends React.Component {
     constructor(props) {
         super(props);
         this.currentstate = {logo: require('./../../images/logo-dark.png').default};
+        
     }
     
     updateFooterLogo = (updatedlogo) => {this.currentstate.logo = updatedlogo.default;}
@@ -60,6 +62,15 @@ class Footer extends React.Component {
                                             <li><NavLink to={"/project-grid"}>Projects</NavLink></li>
                                             <li><NavLink to={"/contactus"}>Contact Us</NavLink></li>
                                         </ul>
+                                    </div>
+                                </div>
+                                {/* USEFUL LINKS */}
+                                <div className="col-lg-3 col-md-6 col-sm-6 footer-col-3">
+                                    <div className="widget widget_services inline-links">
+                                        <h4 className="widget-title">ESA LICENSE NO:  7015867</h4>
+                                        <div className="logo-footer clearfix p-b15">
+                                            <NavLink to={"./"}><img src={this.currentstate.logo} alt="" /></NavLink>
+                                        </div>
                                     </div>
                                 </div>
                                 {/* TAGS */}
