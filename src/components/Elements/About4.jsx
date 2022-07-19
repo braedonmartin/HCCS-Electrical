@@ -5,8 +5,8 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import bnr1 from './../../images/background/line.png';
 import slidePic1 from './../../images/gallery/portrait/pic8.jpg';
-import slidePic2 from './../../images/gallery/portrait/pic2.jpg';
-import slidePic3 from './../../images/gallery/portrait/pic3.jpg';
+import slidePic2 from './../../images/gallery/portrait/pic9.jpg';
+import slidePic3 from './../../images/gallery/portrait/pic10.jpg';
 import slidePic4 from './../../images/gallery/portrait/pic4.jpg';
 import slidePic5 from './../../images/gallery/portrait/pic5.jpg';
 import '../../App.css'
