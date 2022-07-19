@@ -11,7 +11,7 @@ import slidePic4 from './../../images/gallery/portrait/pic4.jpg';
 import slidePic5 from './../../images/gallery/portrait/pic5.jpg';
 import '../../App.css'
 
-let images = [ slidePic1, slidePic2, slidePic3, slidePic4, slidePic5 ]; // used to loop through the images
+let images = [ slidePic1, slidePic2, slidePic3 ]; // used to loop through the images
 
 function About4() {
     

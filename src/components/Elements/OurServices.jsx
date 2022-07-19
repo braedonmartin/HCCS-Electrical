@@ -12,14 +12,20 @@ const services = [
     },
     {
         count: 2,
-        title: 'Electric Car Charging Stations',
+        title: 'EV Charging Stations',
         icon: require('./../../images/icon/EV-station.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
     {
         count: 3,
-        title: 'Building Maintenance',
-        icon: require('./../../images/icon/toolbox.png'),
+        title: 'Renovations',
+        icon: require('./../../images/icon/blueprint.png'),
+        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+    },
+    {
+        count: 4,
+        title: 'Commericial Work',
+        icon: require('./../../images/icon/building.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
 ]
@@ -69,7 +75,7 @@ function OurServices() {
                         <div className="container">
                             <div className="row">
                                 {services.map((item, index) => (
-                                    <div className="col-md-4 col-sm-6" key={index}>
+                                    <div className="col-md-3 col-sm-6" key={index}>
                                         <div className="mt-icon-box-wraper m-b30">
                                             <div className="relative icon-count-2 bg-gray p-a30 p-tb50">
                                                 <span className="icon-count-number">{item.count}</span>
