@@ -17,12 +17,12 @@ function Slider3() {
         },
         {
             title: 'Home Renovations',
-            slide: require('./../../images/main-slider/slide3.jpg'),
+            slide: require('./../../images/main-slider/slide6.jpg'),
             description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
         },
         {
             title: 'Commericial Work',
-            slide: require('./../../images/main-slider/slide3.jpg'),
+            slide: require('./../../images/main-slider/slide7.jpg'),
             description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
         },
     ]
