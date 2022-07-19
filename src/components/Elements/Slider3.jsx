@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import slide1 from './../../images/main-slider/slide1.jpg';
-import slide2 from './../../images/main-slider/slide2.jpg';
+import slide2 from './../../images/main-slider/slide5.jpg';
 import slide3 from './../../images/main-slider/slide3.jpg';
 
 
