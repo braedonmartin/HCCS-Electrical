@@ -6,13 +6,13 @@ const services = [
     {
         count: 1,
         title: `Retrofitting Potlights`,
-        icon: require('./../../images/icon/crane-1.png'),
+        icon: require('./../../images/icon/recessed-lighting.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
     {
         count: 2,
         title: 'Electric Car Charging Stations',
-        icon: require('./../../images/icon/renovation.png'),
+        icon: require('./../../images/icon/EV-station.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
     {

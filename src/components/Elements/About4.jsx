@@ -4,7 +4,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import bnr1 from './../../images/background/line.png';
-import slidePic1 from './../../images/gallery/portrait/pic1.jpg';
+import slidePic1 from './../../images/gallery/portrait/pic8.jpg';
 import slidePic2 from './../../images/gallery/portrait/pic2.jpg';
 import slidePic3 from './../../images/gallery/portrait/pic3.jpg';
 import slidePic4 from './../../images/gallery/portrait/pic4.jpg';
