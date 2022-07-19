@@ -4,6 +4,12 @@ import companyLogo from './../../images/footer-logo.png';
 import esaLogo from './../../images/footer-esa-logo.png';
 
 function Footer() {
+    const contactInfo = {
+        email: 'shmeat_my_meat@shmeaterbeaters.com',
+        phone: '(420) 420-6969',
+        availablity: 'Sun-Sat 9.45 am',
+        address: '420 Shmeat Street, Suite 420, Shmeatsville'
+    }
 
     return (
         <>
@@ -32,10 +38,9 @@ function Footer() {
                                 <div className="widget widget_address_outer">
                                     <h4 className="widget-title">Contact Us</h4>
                                     <ul className="widget_address">
-                                        <li>34/7 Liverpool Street, Suite 636, London, United Kingdom</li>
-                                        <li>7xthemedemo@gmail.com</li>
-                                        <li>(+298) 012-3456-789</li>
-                                        <li>(+298) 146-6543-480</li>
+                                        <li>{contactInfo.address}</li>
+                                        <li>{contactInfo.email}</li>
+                                        <li>{contactInfo.phone}</li>
                                     </ul>
                                 </div>
                             </div>

@@ -38,7 +38,7 @@ function Navigation(props) {
                         <NavLink to={"/faq"}>FAQ</NavLink>
                     </li>
                     <li>
-                    <NavLink to={""}>Pages</NavLink>
+                    {/* <NavLink to={""}>Pages</NavLink>
                         <ul className="sub-menu">
                             <li>
                                 <NavLink to={"/about"}>About us</NavLink>
@@ -51,9 +51,9 @@ function Navigation(props) {
                             </li>
                             <li>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink to={""}>Post detail</NavLink>
                         <ul className="sub-menu">
                             <li><NavLink to={"/post-image"}>Post Image</NavLink></li>
@@ -86,7 +86,7 @@ function Navigation(props) {
                             <li><NavLink to={"/video"}>Video</NavLink></li>
                             <li><NavLink to={"/iconfont"}>Icon Font</NavLink></li>
                         </ul>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </>

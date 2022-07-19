@@ -3,11 +3,12 @@ import Components from './components/Components';
 import ScrolToTop from './components/Elements/ScrolToTop';
 import Loader from "./components/Elements/Loader";
 
-const App = () => {
+function App() {
+  
   
   return (
     <div className="App">
-      <Components />  
+      <Components/>  
       <ScrolToTop/>
       <Loader/>  
     </div>

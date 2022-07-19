@@ -9,6 +9,7 @@ import slidePic2 from './../../images/gallery/portrait/pic2.jpg';
 import slidePic3 from './../../images/gallery/portrait/pic3.jpg';
 import slidePic4 from './../../images/gallery/portrait/pic4.jpg';
 import slidePic5 from './../../images/gallery/portrait/pic5.jpg';
+import '../../App.css'
 
 let images = [ slidePic1, slidePic2, slidePic3, slidePic4, slidePic5 ]; // used to loop through the images
 
@@ -48,7 +49,7 @@ function About4() {
     }
 
     return (
-        <>
+        <div className="about-element">
             <div className="section-full p-t30 p-b80 bg-white inner-page-padding">
                 <div className="container">
                     <div className="section-content ">
@@ -85,7 +86,7 @@ function About4() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

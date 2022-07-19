@@ -8,10 +8,11 @@ import OurServices from './../Elements/OurServices';
 import Team3 from './../Elements/Team3';
 import OurProject from './../Elements/OurProject';
 import Testimonials from './../Elements/Testimonials';
+import '../../App.css'
 
 function Home() {
     return (
-        <>
+        <div className='Home'>
             <Header />
             <div className="page-content">
                 <Slider />
@@ -23,7 +24,7 @@ function Home() {
                 {/*<Testimonials />*/}
             </div>
             <Footer />
-        </>
+        </div>
     );
 };
 export default Home;

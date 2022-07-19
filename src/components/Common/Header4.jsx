@@ -8,14 +8,12 @@ function Header() {
     const [active, setActive] = useState({ isSearchActive: false, isQuoteActive: false });
     const [logo, setLogo] = useState({logo: navLogo});
 
-    // Handles the search button
-    const handleSearchToggle = () => {
-        setActive(prevActive => ({ ...prevActive, isSearchActive: !prevActive.isSearchActive }));
-    };
-    // Handles the side contact menu on the navbar
-    const handleQuoteToggle = () => {
-        setActive(prevActive => ({ ...prevActive, isQuoteActive: !prevActive.isQuoteActive }));
-    };
+    const contactInfo = {
+        email: 'shmeat_my_meat@shmeaterbeaters.com',
+        phone: '(420) 420-6969',
+        availablity: 'Sun-Sat 9.45 am',
+        address: '420 Shmeat Street, Suite 420, Shmeatsville'
+    }
 
     // Makes the navbar stick to the top of the page on scroll
     useEffect(() => {
@@ -40,6 +38,16 @@ function Header() {
            setLogo({ logo: logopath }); 
         };
     });
+
+    // Handles the search button
+    function handleSearchToggle() {
+        setActive(prevActive => ({ ...prevActive, isSearchActive: !prevActive.isSearchActive }));
+    };
+    // Handles the side contact menu on the navbar
+    function handleQuoteToggle() {
+        setActive(prevActive => ({ ...prevActive, isQuoteActive: !prevActive.isQuoteActive }));
+    };
+
         
     return (
         <>
@@ -49,9 +57,9 @@ function Header() {
                         <div className="row">
                             <div className="mt-topbar-left clearfix">
                                 <ul className="list-unstyled e-p-bx pull-right">
-                                    <li><i className="fa fa-envelope" /> 7xthemehelp@gmail.com</li>
-                                    <li><i className="fa fa-phone" />(075) 123-7654</li>
-                                    <li><i className="fa fa-clock-o" />Sun-Sat 9.45 am</li>
+                                    <li><i className="fa fa-envelope" />{contactInfo.email}</li>
+                                    <li><i className="fa fa-phone" />{contactInfo.phone}</li>
+                                    <li><i className="fa fa-clock-o" />{contactInfo.availablity}</li>
                                 </ul>
                             </div>
                             <div className="mt-topbar-right clearfix">
@@ -92,39 +100,35 @@ function Header() {
                             {/* Contact Nav */}
                             <div className="contact-slide-hide " style={{ backgroundImage: 'url(' + contactBackground + ')', right: active.isQuoteActive ? '0px' : '-500px' }}>
                                 <div className="contact-nav">
-                                <NavLink to={"#"} className="contact_close" onClick={handleQuoteToggle}>×</NavLink>
+                                <NavLink to={"#"} className=                                                                                    "contact_close" onClick={handleQuoteToggle}>×</NavLink>
                                     <div className="contact-nav-form p-a30">
                                         <div className="contact-info   m-b30">
                                             <div className="mt-icon-box-wraper center p-b30">
                                                 <div className="icon-xs m-b20 scale-in-center"><i className="fa fa-phone" /></div>
                                                 <div className="icon-content">
                                                     <h5 className="m-t0 font-weight-500">Phone number</h5>
-                                                    <p>(075) 123-7654</p>
+                                                    <p>{contactInfo.phone}</p>
                                                 </div>
                                             </div>
                                             <div className="mt-icon-box-wraper center p-b30">
                                                 <div className="icon-xs m-b20 scale-in-center"><i className="fa fa-envelope" /></div>
                                                 <div className="icon-content">
                                                     <h5 className="m-t0 font-weight-500">Email address</h5>
-                                                    <p>7xthemehelp@gmail.com</p>
+                                                    <p>{contactInfo.email}</p>
                                                 </div>
                                             </div>
                                             <div className="mt-icon-box-wraper center p-b30">
                                                 <div className="icon-xs m-b20 scale-in-center"><i className="fa fa-map-marker" /></div>
                                                 <div className="icon-content">
                                                     <h5 className="m-t0 font-weight-500">Address info</h5>
-                                                    <p>201 Liverpool Street, Suite 721, London</p>
+                                                    <p>{contactInfo.address}</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="full-social-bg">
                                             <ul>
                                                 <li><NavLink to={"#"} className="facebook"><i className="fa fa-facebook" /></NavLink></li>
-                                                <li><NavLink to={"#"} className="google"><i className="fa fa-google" /></NavLink></li>
                                                 <li><NavLink to={"#"} className="instagram"><i className="fa fa-instagram" /></NavLink></li>
-                                                <li><NavLink to={"#"} className="tumblr"><i className="fa fa-tumblr" /></NavLink></li>
-                                                <li><NavLink to={"#"} className="twitter"><i className="fa fa-twitter" /></NavLink></li>
-                                                <li><NavLink to={"#"} className="youtube"><i className="fa fa-youtube" /></NavLink></li>
                                             </ul>
                                         </div>
                                         <div className="text-center">
