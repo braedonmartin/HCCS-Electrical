@@ -5,8 +5,8 @@ import esaLogo from './../../images/footer-esa-logo.png';
 
 function Footer() {
     const contactInfo = {
-        email: 'shmeat_my_meat@shmeaterbeaters.com',
-        phone: '(420) 420-6969',
+        email: 'HCCS850143@outlook.com',
+        phone: '(647) 966-1989',
         availablity: 'Sun-Sat 9.45 am',
         address: '420 Shmeat Street, Suite 420, Shmeatsville'
     }

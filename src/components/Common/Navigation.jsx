@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink  } from 'react-router-dom';
 
 function Navigation(props) {
 
@@ -28,16 +28,16 @@ function Navigation(props) {
         <>
             <div className={(props.bgcolor !== '') ? `header-nav navbar-collapse collapse ${props.bgcolor}` : 'header-nav navbar-collapse collapse'}>
                 <ul className="nav navbar-nav">
-                    <li className="active">
+                    <li>
                         <NavLink to={"./"}>Home</NavLink>
                     </li>
                     <li>
                         <NavLink to={"/contactus"}>Contact us</NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink to={"/faq"}>FAQ</NavLink>
                     </li>
-                    {/* <li>
+                    <li>
                     <NavLink to={""}>Pages</NavLink>
                         <ul className="sub-menu">
                             <li>

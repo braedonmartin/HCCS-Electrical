@@ -33,39 +33,39 @@ class Components extends React.Component {
         return (
             <BrowserRouter basename="/">
                 <div className="page-wraper">
-                        <Switch>
-                            <Route path='/' exact component={Home} />
+                    <Switch>
+                        <Route path='/' exact component={Home} />
 
-                            <Route path='/about' exact component={About} />
-                            <Route path='/services' exact component={Services} />
+                        <Route path='/about' exact component={About} />
+                        <Route path='/services' exact component={Services} />
 
-                            <Route path='/faq' exact component={Faq} />
-                            <Route path='/error' exact component={Error} />
-                            <Route path='/contactus' exact component={ContactUs} />
+                        <Route path='/faq' exact component={Faq} />
+                        <Route path='/error' exact component={Error} />
+                        <Route path='/contactus' exact component={ContactUs} />
 
-                            <Route path='/post-image' exact component={PostImage} />
-                            <Route path='/post-gallery' exact component={PostGallery} />
-                            <Route path='/post-video' exact component={PostVideo} />
-                            <Route path='/post-sidebar' exact component={PostSidebar} />
+                        <Route path='/post-image' exact component={PostImage} />
+                        <Route path='/post-gallery' exact component={PostGallery} />
+                        <Route path='/post-video' exact component={PostVideo} />
+                        <Route path='/post-sidebar' exact component={PostSidebar} />
 
-                            <Route path='/project-carousel' exact component={ProjectCarousel} />
-                            <Route path='/project-classic1' exact component={ProjectClassic1} />
-                            <Route path='/project-classic2' exact component={ProjectClassic2} />
-                            <Route path='/project-detail' exact component={ProjectDetail} />
-                            <Route path='/project-grid' exact component={ProjectGrid} />
-                            <Route path='/project-masonary' exact component={ProjectMasonary} />
+                        <Route path='/project-carousel' exact component={ProjectCarousel} />
+                        <Route path='/project-classic1' exact component={ProjectClassic1} />
+                        <Route path='/project-classic2' exact component={ProjectClassic2} />
+                        <Route path='/project-detail' exact component={ProjectDetail} />
+                        <Route path='/project-grid' exact component={ProjectGrid} />
+                        <Route path='/project-masonary' exact component={ProjectMasonary} />
 
-                            <Route path='/accordian' exact component={Accordian} />
-                            <Route path='/button' exact component={Button} />
-                            <Route path='/iconboxstyle' exact component={IconBoxStyle} />
-                            <Route path='/iconfont' exact component={IconFont} />
-                            <Route path='/listgroup' exact component={ListGroup} />
-                            <Route path='/modalpopup' exact component={ModalPopup} />
-                            <Route path='/table' exact component={Table} />
-                            <Route path='/tabs' exact component={Tabs} />
-                            <Route path='/video' exact component={Video} />
-                            <Route component={Error} />
-                        </Switch>
+                        <Route path='/accordian' exact component={Accordian} />
+                        <Route path='/button' exact component={Button} />
+                        <Route path='/iconboxstyle' exact component={IconBoxStyle} />
+                        <Route path='/iconfont' exact component={IconFont} />
+                        <Route path='/listgroup' exact component={ListGroup} />
+                        <Route path='/modalpopup' exact component={ModalPopup} />
+                        <Route path='/table' exact component={Table} />
+                        <Route path='/tabs' exact component={Tabs} />
+                        <Route path='/video' exact component={Video} />
+                        <Route component={Error} />
+                    </Switch>
                 </div>
             </BrowserRouter>
         );
