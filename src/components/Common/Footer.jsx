@@ -8,7 +8,7 @@ var esa = require('./../../images/footer-logo.png');
 class Footer extends React.Component {
     constructor(props) {
         super(props);
-        this.currentstate = {logo: require('./../../images/logo-dark.png').default};
+        this.currentstate = {logo: require('./../../images/logo-dark.png').default, esa: require('./../../images/footer-esa-logo.jpg').default}
         
     }
     
@@ -69,7 +69,7 @@ class Footer extends React.Component {
                                     <div className="widget widget_services inline-links">
                                         <h4 className="widget-title">ESA LICENSE NO:  7015867</h4>
                                         <div className="logo-footer clearfix p-b15">
-                                            <NavLink to={"./"}><img src={this.currentstate.logo} alt="" /></NavLink>
+                                            <NavLink to={"./"}><img src={this.currentstate.esa} alt="" /></NavLink>
                                         </div>
                                     </div>
                                 </div>
