@@ -39,7 +39,7 @@ function About4() {
     
     const options = {
         loop:true,
-        autoplay:true,
+        autoplay:false,
         autoplayTimeout:3000,
         margin:30,
         nav:false,
