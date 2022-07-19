@@ -18,7 +18,7 @@ const services = [
     },
     {
         count: 3,
-        title: 'Renovations',
+        title: 'Home Renovations',
         icon: require('./../../images/icon/blueprint.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
