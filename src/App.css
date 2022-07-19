@@ -83,3 +83,7 @@ INPUT ANIMATION
 /*----------------------
 CUSTOM STYLES
 ------------------------*/
+.mt-tilte {
+  margin-inline: 0px;
+  word-spacing: 0px;
+}

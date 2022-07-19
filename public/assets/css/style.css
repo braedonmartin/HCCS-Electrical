@@ -13569,9 +13569,6 @@ transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
 }
-.icon-count-2 .mt-tilte{
-	word-spacing: 100vw;
-}
 .icon-count-2:after{
 	position:absolute;
 	content:'';

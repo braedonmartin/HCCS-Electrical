@@ -50,7 +50,6 @@ function Footer() {
                                     <h4 className="widget-title">Useful links</h4>
                                     <ul>
                                         <li><NavLink to={"/about"}>About</NavLink></li>
-                                        <li><NavLink to={"/project-grid"}>Projects</NavLink></li>
                                         <li><NavLink to={"/contactus"}>Contact Us</NavLink></li>
                                     </ul>
                                 </div>
