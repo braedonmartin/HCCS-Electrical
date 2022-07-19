@@ -6,13 +6,8 @@ function Slider3() {
 
     const services = [
         {
-            title: `Retrofitting Potlights`,
-            slide: require('./../../images/main-slider/slide1.jpg'),
-            description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
-        },
-        {
-            title: 'Electric Car Charging Stations',
-            slide: require('./../../images/main-slider/slide5.jpg'),
+            title: 'Commericial Work',
+            slide: require('./../../images/main-slider/slide7.jpg'),
             description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
         },
         {
@@ -21,8 +16,13 @@ function Slider3() {
             description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
         },
         {
-            title: 'Commericial Work',
-            slide: require('./../../images/main-slider/slide7.jpg'),
+            title: 'Electric Car Charging Stations',
+            slide: require('./../../images/main-slider/slide5.jpg'),
+            description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        },
+        {
+            title: `Retrofitting Potlights`,
+            slide: require('./../../images/main-slider/slide1.jpg'),
             description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
         },
     ]

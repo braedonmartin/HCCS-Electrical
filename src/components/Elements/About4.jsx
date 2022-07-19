@@ -7,8 +7,6 @@ import bnr1 from './../../images/background/line.png';
 import slidePic1 from './../../images/gallery/portrait/pic8.jpg';
 import slidePic2 from './../../images/gallery/portrait/pic9.jpg';
 import slidePic3 from './../../images/gallery/portrait/pic10.jpg';
-import slidePic4 from './../../images/gallery/portrait/pic4.jpg';
-import slidePic5 from './../../images/gallery/portrait/pic5.jpg';
 import '../../App.css'
 
 let images = [ slidePic1, slidePic2, slidePic3 ]; // used to loop through the images

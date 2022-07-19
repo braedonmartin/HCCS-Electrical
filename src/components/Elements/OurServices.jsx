@@ -6,28 +6,28 @@ import '../../App.css'
 const services = [
     {
         count: 1,
-        title: `Retrofitting Potlights`,
-        icon: require('./../../images/icon/recessed-lighting.png'),
+        title: 'Commericial Work',
+        icon: require('./../../images/icon/building.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
     {
         count: 2,
-        title: 'EV Charging Stations',
-        icon: require('./../../images/icon/EV-station.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
-    },
-    {
-        count: 3,
         title: 'Home Renovations',
         icon: require('./../../images/icon/blueprint.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
     {
-        count: 4,
-        title: 'Commericial Work',
-        icon: require('./../../images/icon/building.png'),
+        count: 3,
+        title: 'EV Charging Stations',
+        icon: require('./../../images/icon/EV-station.png'),
         description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
     },
+    {
+        count: 4,
+        title: `Retrofitting Potlights`,
+        icon: require('./../../images/icon/recessed-lighting.png'),
+        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+    }
 ]
 
 function OurServices() {
