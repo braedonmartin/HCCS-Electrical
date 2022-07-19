@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import backgroundImg from './../../images/background/bg-4.png'; // the half background
+import '../../App.css'
 
 const services = [
     {
