@@ -8,24 +8,22 @@ import AboutSummary from './../Elements/AboutSummary';
 
 var bnrimg = require('./../../images/banner/1.jpg');
 
-class About extends React.Component {
-    render() {
-        return (
-            <>
+function About() {
+    return (
+        <>
 
-                <Header />
-                <div className="page-content">
-                    <Banner title="Creating quality urban lifestyles, building stronger communities." pagename="About Us" bgimage={bnrimg.default}/>
-                    <About4 />
-                    <Specialization4 />
-                    <AboutSummary />
-                </div>
+            <Header />
+            <div className="page-content">
+                <Banner title="Creating quality urban lifestyles, building stronger communities." pagename="About Us" bgimage={bnrimg.default}/>
+                <About4 />
+                <Specialization4 />
+                <AboutSummary />
+            </div>
 
-                <Footer />
+            <Footer />
 
-            </>
-        );
-    };
+        </>
+    );
 };
 
 export default About;
