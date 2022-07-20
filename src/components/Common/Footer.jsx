@@ -26,7 +26,7 @@ function Footer() {
                                     <div className="logo-footer clearfix p-b15">
                                         <NavLink to={"./"}><img src={companyLogo} alt="" /></NavLink>
                                     </div>
-                                    <p className="max-w400">Today we can tell you, thanks to your passion, hard work creativity, and expertise, you delivered us the most beautiful house great looks.</p>
+                                    <p className="max-w400">We put in passion, hard work, and creativity into every project we deliver. Work with us today!</p>
                                     <ul className="social-icons  mt-social-links">
                                         <li><NavLink to={"#"} className="fa fa-instagram" /></li>
                                         <li><NavLink to={"#"} className="fa fa-facebook" /></li>
@@ -73,7 +73,7 @@ function Footer() {
                     <div className="container">
                         <div className="row">
                             <div className="mt-footer-bot-center">
-                                <span className="copyrights-text">© 2021 Your Company. Designed By 7xtheme.</span>
+                                <span className="copyrights-text">© 2022 HCCS Electrical</span>
                             </div>
                         </div>
                     </div>
