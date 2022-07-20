@@ -39,9 +39,9 @@ function Header() {
     });
 
     // Handles the search button
-    function handleSearchToggle() {
-        setActive(prevActive => ({ ...prevActive, isSearchActive: !prevActive.isSearchActive }));
-    };
+    // function handleSearchToggle() {
+    //     setActive(prevActive => ({ ...prevActive, isSearchActive: !prevActive.isSearchActive }));
+    // };
     // Handles the side contact menu on the navbar
     function handleQuoteToggle() {
         setActive(prevActive => ({ ...prevActive, isQuoteActive: !prevActive.isQuoteActive }));
@@ -86,11 +86,11 @@ function Header() {
                             </button>
                             {/* ETRA Nav */}
                             <div className="extra-nav">
-                                <div className="extra-cell">
+                                {/* <div className="extra-cell">
                                     <NavLink to={"#"} onClick={handleSearchToggle}> 
                                         <i className="fa fa-search" />
                                     </NavLink>
-                                </div>
+                                </div> */}
                                 <div className="extra-cell">
                                     <NavLink to={"#"} className="contact-slide-show" onClick={handleQuoteToggle}><i className="fa fa-angle-left arrow-animation" /></NavLink>
                                 </div>
@@ -130,7 +130,7 @@ function Header() {
                                 </div>
                             </div>
                             {/* SITE Search */}
-                            <div id="search" className={active.isSearchActive ? "open" : null}>
+                            {/* <div id="search" className={active.isSearchActive ? "open" : null}>
                                 <span className="close" onClick={handleSearchToggle} />
                                 <form role="search" id="searchform" action="/search" method="get" className="radius-xl">
                                     <div className="input-group">
@@ -138,7 +138,7 @@ function Header() {
                                         <span className="input-group-btn"><button type="button" className="search-btn"><i className="fa fa-search arrow-animation" /></button></span>
                                     </div>
                                 </form>
-                            </div>
+                            </div> */}
                             {/* MAIN Vav */}
                             <Navigation bgcolor="nav-dark" />
                         </div>

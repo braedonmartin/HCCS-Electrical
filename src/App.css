@@ -99,8 +99,8 @@ CUSTOM STYLES
   left: 0%;
   z-index: 3;
   padding: 10px;
-  background: #141414;
-  font-size: 20px;
-  color: white;
-  font-family: 'Roboto', sans-serif;
+  background: white;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Roboto, Arial, sans-serif;
 }

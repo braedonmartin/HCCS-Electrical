@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import Switcher from '../Elements/Switcher';
+import Switcher from '../../Elements/Switcher';
 
 var bgimage = require('./../../images/background/bg-site.png');
 
