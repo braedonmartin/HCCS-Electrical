@@ -73,8 +73,8 @@ function About4() {
                                         <span className="text-primary large-title">20</span>
                                         <span className="large-title-info">Years of Experience</span>
                                     </div>
-                                    <h3 className="font-weight-600">Improving quality of life with an integrated unified approach.</h3>
-                                    <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use texts.  Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+                                    <h3 className="font-weight-600">Matching Expertise To Your Vision.</h3>
+                                    <p>The company has three founders; Tomas Ardiles, Mohsen Lashgren and Maria Shakira. The founders have worked in industrial settings such as completing apprenticeships at HydroOne, in addition with doing jobs in the private sector</p>
                                     <div className="p-t20">
                                         <NavLink to="/about" className="site-button btn-effect m-b15"><span>Get in touch</span></NavLink>
                                     </div>
