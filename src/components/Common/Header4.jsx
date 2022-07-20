@@ -12,7 +12,6 @@ function Header() {
         email: 'HCCS850143@outlook.com',
         phone: '(647) 966-1989',
         availablity: 'Sun-Sat 9.45 am',
-        address: '420 Shmeat Street, Suite 420, Shmeatsville'
     }
 
     // Makes the navbar stick to the top of the page on scroll
@@ -115,13 +114,6 @@ function Header() {
                                                 <div className="icon-content">
                                                     <h5 className="m-t0 font-weight-500">Email address</h5>
                                                     <p>{contactInfo.email}</p>
-                                                </div>
-                                            </div>
-                                            <div className="mt-icon-box-wraper center p-b30">
-                                                <div className="icon-xs m-b20 scale-in-center"><i className="fa fa-map-marker" /></div>
-                                                <div className="icon-content">
-                                                    <h5 className="m-t0 font-weight-500">Address info</h5>
-                                                    <p>{contactInfo.address}</p>
                                                 </div>
                                             </div>
                                         </div>

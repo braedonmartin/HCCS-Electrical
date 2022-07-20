@@ -87,3 +87,20 @@ CUSTOM STYLES
   margin-inline: 0px;
   word-spacing: 0px;
 }
+
+.gmap-outline {
+  position: relative;
+}
+
+.mapBox {
+  border-radius: 0px 5px 0px 0px;
+  position: absolute;
+  bottom:-6%;
+  left: 0%;
+  z-index: 3;
+  padding: 10px;
+  background: #141414;
+  font-size: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}

@@ -8,7 +8,6 @@ function Footer() {
         email: 'HCCS850143@outlook.com',
         phone: '(647) 966-1989',
         availablity: 'Sun-Sat 9.45 am',
-        address: '420 Shmeat Street, Suite 420, Shmeatsville'
     }
 
     return (
@@ -38,7 +37,6 @@ function Footer() {
                                 <div className="widget widget_address_outer">
                                     <h4 className="widget-title">Contact Us</h4>
                                     <ul className="widget_address">
-                                        <li>{contactInfo.address}</li>
                                         <li>{contactInfo.email}</li>
                                         <li>{contactInfo.phone}</li>
                                     </ul>

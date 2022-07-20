@@ -3,6 +3,7 @@ import GoogleMaps from "simple-react-google-maps"
 import Header from './../Common/Header4';
 import Footer from './../Common/Footer';
 import Banner from './../Elements/Banner';
+import '../../App.css'
 
 var bnrimg = require('./../../images/banner/4.jpg');
 
@@ -12,7 +13,6 @@ function ContactUs() {
         email: 'HCCS850143@outlook.com',
         phone: '(647) 966-1989',
         availablity: 'Sun-Sat 9.45 am',
-        address: '420 Shmeat Street, Suite 420, Shmeatsville'
     }
 
     return (
@@ -76,18 +76,11 @@ function ContactUs() {
                                                     <p>{contactInfo.phone}</p>
                                                 </div>
                                             </div>
-                                            <div className="mt-icon-box-wraper left p-b40">
+                                            <div className="mt-icon-box-wraper left p-b10">
                                                 <div className="icon-xs"><i className="fa fa-envelope" /></div>
                                                 <div className="icon-content">
                                                     <h5 className="m-t0 font-weight-500">Email address</h5>
                                                     <p>{contactInfo.email}</p>
-                                                </div>
-                                            </div>
-                                            <div className="mt-icon-box-wraper left">
-                                                <div className="icon-xs"><i className="fa fa-map-marker" /></div>
-                                                <div className="icon-content">
-                                                    <h5 className="m-t0 font-weight-500">Address info</h5>
-                                                    <p>{contactInfo.address}</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -96,12 +89,13 @@ function ContactUs() {
                             </div>
                         </div>
                         <div className="gmap-outline">
+                            <p className='mapBox'>Located in the Brampton area</p>
                             <GoogleMaps
                                 apiKey={"AIzaSyAfY1DRbspf6E3jYUso-PeI_tdfRXA59i0"}
                                 style={{height: "400px", width: "100%"}}
                                 zoom={12}
-                                center={{lat: 34.073280, lng: -118.251410}}
-                                markers={{lat: 34.073280, lng: -118.251410}} //optional
+                                center={{lat: 43.73140774011988, lng: -79.76290351483925}}
+                                markers={{lat: 43.73140774011988, lng: -79.76290351483925}} //optional
                             />
                         </div>
                     </div>
