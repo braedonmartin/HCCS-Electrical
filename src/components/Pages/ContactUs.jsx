@@ -19,7 +19,6 @@ function ContactUs() {
         <>
             <Header />
             <div className="page-content">
-            <Banner title="Putting a plan to action, to assure your satisfaction!" pagename="Contact Us" bgimage={bnrimg.default}/>
                 
                 {/* SECTION CONTENTG START */}
                 <div className="section-full p-tb80 inner-page-padding">
