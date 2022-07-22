@@ -8,25 +8,25 @@ const services = [
         count: 1,
         title: 'Commericial Work',
         icon: require('./../../images/icon/building.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: 'Plugs, recepticles, lighting.',
     },
     {
         count: 2,
         title: 'Home Renovations',
         icon: require('./../../images/icon/blueprint.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: 'Lighting, plugs, upgrade panels, new feeds to equipment.',
     },
     {
         count: 3,
         title: 'EV Charging Stations',
         icon: require('./../../images/icon/EV-station.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: 'Install stations in garage or in outdoor spaces.',
     },
     {
         count: 4,
         title: `Retrofitting Potlights`,
         icon: require('./../../images/icon/recessed-lighting.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: 'We can change the look of your house with new freshly installed potlights.',
     }
 ]
 

@@ -70,7 +70,7 @@ function About4() {
                             <div className="col-md-7 col-sm-6">
                                 <div className="m-about-containt text-black p-t80">
                                     <div className="m-about-years bg-moving" style={{backgroundImage:"url(" + bnr1 + ")"}}>
-                                        <span className="text-primary large-title">20</span>
+                                        <span className="text-primary large-title">10</span>
                                         <span className="large-title-info">Years of Experience</span>
                                     </div>
                                     <h3 className="font-weight-600">Matching Expertise To Your Vision.</h3>
