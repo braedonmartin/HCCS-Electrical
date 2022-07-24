@@ -7,7 +7,6 @@ function Footer() {
     const contactInfo = {
         email: 'HCCS850143@outlook.com',
         phone: '(647) 966-1989',
-        availablity: 'Sun-Sat 9.45 am',
     }
 
     return (

@@ -8,25 +8,19 @@ const services = [
         count: 1,
         title: 'Commericial Work',
         icon: require('./../../images/icon/building.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: 'We work with you to ensure that your business is running smoothly and is in the best position to grow.',
     },
     {
         count: 2,
         title: 'Home Renovations',
-        icon: require('./../../images/icon/blueprint.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        icon: require('./../../images/icon/architecture.png'),
+        description: 'Our highly trained team of electricians can help you with any electrical work you need to complete your home renovation project.',
     },
     {
         count: 3,
         title: 'EV Charging Stations',
         icon: require('./../../images/icon/EV-station.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
-    },
-    {
-        count: 4,
-        title: `Retrofitting Potlights`,
-        icon: require('./../../images/icon/recessed-lighting.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: '',
     }
 ]
 
@@ -75,7 +69,7 @@ function OurServices() {
                         <div className="container">
                             <div className="row">
                                 {services.map((item, index) => (
-                                    <div className="col-md-3 col-sm-6" key={index}>
+                                    <div className="col-md-4 col-sm-6" key={index}>
                                         <div className="mt-icon-box-wraper m-b30">
                                             <div className="relative icon-count-2 bg-gray p-a30 p-tb50">
                                                 <span className="icon-count-number">{item.count}</span>

@@ -11,7 +11,6 @@ function Header() {
     const contactInfo = {
         email: 'HCCS850143@outlook.com',
         phone: '(647) 966-1989',
-        availablity: 'Sun-Sat 9.45 am',
     }
 
     // Makes the navbar stick to the top of the page on scroll
@@ -58,11 +57,7 @@ function Header() {
                                 <ul className="list-unstyled e-p-bx pull-right">
                                     <li><i className="fa fa-envelope" />{contactInfo.email}</li>
                                     <li><i className="fa fa-phone" />{contactInfo.phone}</li>
-                                    <li><i className="fa fa-clock-o" />{contactInfo.availablity}</li>
                                 </ul>
-                            </div>
-                            <div className="mt-topbar-right clearfix">
-                                <div className="appint-btn"><NavLink to={"#"} className="site-button">Make an Appointment</NavLink></div>
                             </div>
                         </div>
                     </div>
