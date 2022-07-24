@@ -8,19 +8,19 @@ const services = [
         count: 1,
         title: 'Commericial Work',
         icon: require('./../../images/icon/building.png'),
-        description: 'We work with you to ensure that your business is running smoothly and is in the best position to grow.',
+        description: 'We work with you to ensure that your business is running smoothly and is in the best position to grow. Plugs, recepticles, lighting.',
     },
     {
         count: 2,
         title: 'Home Renovations',
-        icon: require('./../../images/icon/architecture.png'),
-        description: 'Our highly trained team of electricians can help you with any electrical work you need to complete your home renovation project.',
+        icon: require('./../../images/icon/blueprint.png'),
+        description: 'Our highly trained team of electricians can help you with any electrical work you need to complete your home renovation project. Lighting, plugs, upgrade panels, new feeds to equipment.',
     },
     {
         count: 3,
         title: 'EV Charging Stations',
         icon: require('./../../images/icon/EV-station.png'),
-        description: '',
+        description: 'Install stations in garage or in outdoor spaces.',
     }
 ]
 
