@@ -29,7 +29,7 @@ function OurServices() {
     useEffect(() => {
         function loadScript(src) {
            
-          return new Promise(function(resolve, reject){
+        return new Promise(function(resolve, reject){
             var script = document.createElement('script');
             script.src = src;
             script.addEventListener('load', function () {
