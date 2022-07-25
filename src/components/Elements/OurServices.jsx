@@ -13,7 +13,7 @@ const services = [
     {
         count: 2,
         title: 'Home Renovations',
-        icon: require('./../../images/icon/blueprint.png'),
+        icon: require('./../../images/icon/architecture.png'),
         description: 'Our highly trained team of electricians can help you with any electrical work you need to complete your home renovation project. Lighting, plugs, upgrade panels, new feeds to equipment.',
     },
     {
