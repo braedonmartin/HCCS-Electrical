@@ -1,0 +1,4 @@
+- Add social media links
+- Look at useful links section
+- Finalize error page
+- Build project
