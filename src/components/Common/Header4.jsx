@@ -118,9 +118,6 @@ function Header() {
                                                 <li><NavLink to={"#"} className="instagram"><i className="fa fa-instagram" /></NavLink></li>
                                             </ul>
                                         </div>
-                                        <div className="text-center">
-                                            <h4 className="font-weight-600">©  2021 7xtheme</h4>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
