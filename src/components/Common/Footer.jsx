@@ -5,7 +5,7 @@ import esaLogo from './../../images/footer-esa-logo.png';
 
 function Footer() {
     const contactInfo = {
-        email: 'HCCS850143@outlook.com',
+        email: 'HCCS.TomasArdiles@outlook.com',
         phone: '(647) 966-1989',
     }
 
@@ -18,13 +18,13 @@ function Footer() {
                     <div className="container">
                         <div className="row">
                             {/* ABOUT COMPANY */}
-                            <div className="col-lg-3 col-md-6 col-sm-6">
+                            <div className="col-lg-3 col-md-6 col-sm-6" style={{marginTop: "-25px"}}>
                                 <div className="widget widget_about">
                                     {/*<h4 class="widget-title">About Company</h4>*/}
-                                    <div className="logo-footer clearfix p-b15">
+                                    <div className="logo-footer clearfix p-b15" style={{marginLeft: "20px"}}>
                                         <NavLink to={"./"}><img src={companyLogo} alt="" /></NavLink>
                                     </div>
-                                    <p className="max-w400">We put in passion, hard work, and creativity into every project we deliver. Work with us today!</p>
+                                    <p className="max-w400">We put passion, hard work, and creativity into every project we deliver. Work with us today!</p>
                                     <ul className="social-icons  mt-social-links">
                                         <li><NavLink to={"#"} className="fa fa-instagram" /></li>
                                         <li><NavLink to={"#"} className="fa fa-facebook" /></li>
@@ -34,7 +34,7 @@ function Footer() {
                             {/* RESENT POST */}
                             <div className="col-lg-3 col-md-6 col-sm-6">
                                 <div className="widget widget_address_outer">
-                                    <h4 className="widget-title">Contact Us</h4>
+                                    <h4 className="widget-title">Contact Info</h4>
                                     <ul className="widget_address">
                                         <li>{contactInfo.email}</li>
                                         <li>{contactInfo.phone}</li>
@@ -46,7 +46,6 @@ function Footer() {
                                 <div className="widget widget_services inline-links">
                                     <h4 className="widget-title">Useful links</h4>
                                     <ul>
-                                        <li><NavLink to={"/about"}>About</NavLink></li>
                                         <li><NavLink to={"/contactus"}>Contact Us</NavLink></li>
                                     </ul>
                                 </div>
@@ -65,16 +64,7 @@ function Footer() {
                     </div>
                 </div>
                 {/* FOOTER COPYRIGHT */}
-                <div className="footer-bottom overlay-wraper">
-                    <div className="overlay-main" />
-                    <div className="container">
-                        <div className="row">
-                            <div className="mt-footer-bot-center">
-                                <span className="copyrights-text">© 2022 HCCS Electrical</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </footer>
         </>
     );

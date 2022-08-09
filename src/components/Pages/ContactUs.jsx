@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser'
 import GoogleMaps from "simple-react-google-maps"
 import Header from './../Common/Header4';
 import Footer from './../Common/Footer';
@@ -9,10 +10,31 @@ var bnrimg = require('./../../images/banner/4.jpg');
 
 function ContactUs() {
 
+    const form = useRef()
+
     const contactInfo = {
-        email: 'HCCS850143@outlook.com',
+        email: 'HCCS.TomasArdiles@outlook.com',
         phone: '(647) 966-1989',
         availablity: 'Sun-Sat 9.45 am',
+    }
+
+    const sendEmail = (e) => {
+      e.preventDefault()
+  
+      emailjs
+        .sendForm(
+          'service_ucxxyzo',
+          'template_dahgcrs',
+          form.current,
+          'MCe2J7N4wUnVw38fr'
+        )
+        .then(() => {
+            alert('Message successfully sent!')
+            window.location.reload(false)
+          }, () => {
+            alert('Failed to send the message, please try again')
+          }
+        )
     }
 
     return (
@@ -29,7 +51,7 @@ function ContactUs() {
                             {/* CONTACT FORM*/}
                             <div className="row">
                                 <div className="col-md-8 col-sm-6">
-                                    <form className="contact-form cons-contact-form" method="post" action="">
+                                    <form className="contact-form cons-contact-form" ref={form} onSubmit={sendEmail}>
                                         <div className="contact-one m-b30">
                                             {/* TITLE START */}
                                             <div className="section-head">
@@ -41,7 +63,7 @@ function ContactUs() {
                                             </div>
                                             {/* TITLE END */}
                                             <div className="form-group">
-                                                <input name="username" type="text" required className="form-control" placeholder="Name" />
+                                                <input name="name" type="text" required className="form-control" placeholder="Name" />
                                             </div>
                                             <div className="form-group">
                                                 <input name="email" type="text" className="form-control" required placeholder="Email" />
@@ -67,16 +89,16 @@ function ContactUs() {
                                             </div>
                                         </div>
                                         {/* TITLE END */}
-                                        <div className="bg-dark p-a20 text-white">
+                                        <div className="bg-light p-a20 text-black">
                                             <div className="mt-icon-box-wraper left p-b40">
-                                                <div className="icon-xs"><i className="fa fa-phone" /></div>
+                                                <div className="icon-xs" style={{color: "#f5be23"}}><i className="fa fa-phone" /></div>
                                                 <div className="icon-content">
                                                     <h5 className="m-t0 font-weight-500">Phone number</h5>
                                                     <p>{contactInfo.phone}</p>
                                                 </div>
                                             </div>
                                             <div className="mt-icon-box-wraper left p-b10">
-                                                <div className="icon-xs"><i className="fa fa-envelope" /></div>
+                                                <div className="icon-xs" style={{color: "#f5be23"}}><i className="fa fa-envelope" /></div>
                                                 <div className="icon-content">
                                                     <h5 className="m-t0 font-weight-500">Email address</h5>
                                                     <p>{contactInfo.email}</p>

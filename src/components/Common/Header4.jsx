@@ -9,7 +9,7 @@ function Header() {
     const [logo, setLogo] = useState({logo: navLogo});
 
     const contactInfo = {
-        email: 'HCCS850143@outlook.com',
+        email: 'HCCS.TomasArdiles@outlook.com',
         phone: '(647) 966-1989',
     }
 

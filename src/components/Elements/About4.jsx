@@ -76,7 +76,7 @@ function About4() {
                                     <h3 className="font-weight-600">Matching Expertise To Your Vision.</h3>
                                     <p>The company has three founders; Tomas Ardiles, Mohsen Lashgren and Maria Shakira. The founders have worked in industrial settings such as completing apprenticeships at HydroOne, in addition with doing jobs in the private sector</p>
                                     <div className="p-t20">
-                                        <NavLink to="/about" className="site-button btn-effect m-b15"><span>Get in touch</span></NavLink>
+                                        <NavLink to="/contactus" className="site-button btn-effect m-b15"><span>Get in touch</span></NavLink>
                                     </div>
                                 </div>
                             </div>
