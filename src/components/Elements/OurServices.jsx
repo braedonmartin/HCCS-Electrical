@@ -21,6 +21,12 @@ const services = [
         title: 'EV Charging Stations',
         icon: require('./../../images/icon/EV-station.png'),
         description: 'We install charging stations in outdoor spaces and garages. A perfect cost-effective solution for home owners and other consumers.',
+    },
+    {
+        count: 4,
+        title: 'HVAC Systems',
+        icon: require('./../../images/icon/HVAC.png'),
+        description: 'Heating, cooling, ventilation, air conditioning, and more. We do repairs and installations on all types of HVAC systems.',
     }
 ]
 
@@ -69,7 +75,7 @@ function OurServices() {
                         <div className="container">
                             <div className="row">
                                 {services.map((item, index) => (
-                                    <div className="col-md-4 col-sm-6" key={index}>
+                                    <div className="col-md-3 col-sm-6" key={index}>
                                         <div className="mt-icon-box-wraper m-b30">
                                             <div className="relative icon-count-2 bg-gray p-a30 p-tb50">
                                                 <span className="icon-count-number">{item.count}</span>

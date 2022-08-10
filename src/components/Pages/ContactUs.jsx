@@ -66,7 +66,7 @@ function ContactUs() {
                                                 <input name="name" type="text" required className="form-control" placeholder="Name" />
                                             </div>
                                             <div className="form-group">
-                                                <input name="email" type="text" className="form-control" required placeholder="Email" />
+                                                <input name="email" type="email" className="form-control" required placeholder="Email" />
                                             </div>
                                             <div className="form-group">
                                                 <textarea name="message" rows={4} className="form-control " required placeholder="Message" defaultValue={""} />
