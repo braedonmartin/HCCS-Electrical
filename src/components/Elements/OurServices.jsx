@@ -20,13 +20,13 @@ const services = [
         count: 3,
         title: 'EV Charging Stations',
         icon: require('./../../images/icon/EV-station.png'),
-        description: 'We install charging stations in outdoor spaces and garages. A perfect cost-effective solution for home owners and other consumers.',
+        description: 'We install energy-efficient charging stations in outdoor spaces and garages. A perfect cost-effective solution for home owners and other consumers.',
     },
     {
         count: 4,
         title: 'HVAC Systems',
         icon: require('./../../images/icon/HVAC.png'),
-        description: 'Heating, cooling, ventilation, air conditioning, and more. We do repairs and installations on all types of HVAC systems.',
+        description: 'Take control of your temperature. Whether it\'s the scorching heat or frigid cold, we do repairs and installations on all types of HVAC systems to maintain your comfort.',
     }
 ]
 

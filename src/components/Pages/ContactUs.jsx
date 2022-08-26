@@ -72,8 +72,9 @@ function ContactUs() {
                                                 <textarea name="message" rows={4} className="form-control " required placeholder="Message" defaultValue={""} />
                                             </div>
                                             <div className="text-right">
-                                                <button name="submit" type="submit" value="Submit" className="site-button btn-effect">submit
-                </button>
+                                                <button name="submit" type="submit" value="Submit" className="site-button btn-effect">
+                                                  submit
+                                                </button>
                                             </div>
                                         </div>
                                     </form>

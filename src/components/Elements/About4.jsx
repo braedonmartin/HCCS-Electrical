@@ -12,6 +12,8 @@ import '../../App.css'
 let images = [ slidePic1, slidePic2, slidePic3 ]; // used to loop through the images
 
 function About4() {
+
+  const about = 'HCCS is a full-service residential and commercial electrical contractor located in Brampton, ON, providing high quality work in a wide a range of electrical services. Our highly trained licensed electricians are equipped to handle all of your electrical repair and installation needs in a safe and timely manner. We understand every project brings with it it\'s own needs. Don\'t hesitate to reach out and contact us so we can discuss how to proceed and provide you the best solution.'
     
     
     useEffect(() => {
@@ -74,7 +76,7 @@ function About4() {
                                         <span className="large-title-info">Years of Experience</span>
                                     </div>
                                     <h3 className="font-weight-600">Matching Expertise To Your Vision.</h3>
-                                    <p>The company has three founders; Tomas Ardiles, Mohsen Lashgren and Maria Shakira. The founders have worked in industrial settings such as completing apprenticeships at HydroOne, in addition with doing jobs in the private sector</p>
+                                    <p>{about}</p>
                                     <div className="p-t20">
                                         <NavLink to="/contactus" className="site-button btn-effect m-b15"><span>Get in touch</span></NavLink>
                                     </div>

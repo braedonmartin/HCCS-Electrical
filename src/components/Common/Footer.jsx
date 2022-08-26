@@ -25,10 +25,10 @@ function Footer() {
                                         <NavLink to={"./"}><img src={companyLogo} alt="" /></NavLink>
                                     </div>
                                     <p className="max-w400">We put passion, hard work, and creativity into every project we deliver. Work with us today!</p>
-                                    <ul className="social-icons  mt-social-links">
+                                    {/* <ul className="social-icons  mt-social-links">
                                         <li><NavLink to={"#"} className="fa fa-instagram" /></li>
                                         <li><NavLink to={"#"} className="fa fa-facebook" /></li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </div>
                             {/* RESENT POST */}

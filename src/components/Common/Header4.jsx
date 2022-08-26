@@ -112,12 +112,12 @@ function Header() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="full-social-bg">
+                                        {/* <div className="full-social-bg">
                                             <ul>
                                                 <li><NavLink to={"#"} className="facebook"><i className="fa fa-facebook" /></NavLink></li>
                                                 <li><NavLink to={"#"} className="instagram"><i className="fa fa-instagram" /></NavLink></li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
